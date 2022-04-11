@@ -1,1 +1,3 @@
 test.py
+tf_np/__pycache__/*
+tf_pd/__pycache__/*
