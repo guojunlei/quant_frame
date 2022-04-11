@@ -13,7 +13,7 @@ import numba as nb
 
 
 def get_one_stock_data(code: str) -> np.array:
-    conn = sql.connect('../../data/All_stock.db')
+    conn = sql.connect('../data/All_stock.db')
     cur = conn.cursor()
 
     # ===获取单只股票数据

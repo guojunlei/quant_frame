@@ -9,7 +9,7 @@ import numpy as np
 
 # === 获取单只股票数据
 def get_one_stock_data(code: str) -> pd.DataFrame:
-    conn = sql.connect('../../data/All_stock.db')
+    conn = sql.connect('../data/All_stock.db')
     df: pd.DataFrame = pd.read_sql_query(
         f"select * from stock where symbol='{code}' ",
         con=conn,
