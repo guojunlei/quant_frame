@@ -5,6 +5,7 @@ author: guojunlei
 """
 from function import *
 import time
+from signals import *
 
 pd.set_option('expand_frame_repr', False)
 pd.set_option('display.max_rows', 5000)

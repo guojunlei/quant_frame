@@ -3,9 +3,9 @@ author: guojunlei
 择时框架
 2022-04-08
 """
-from numpy import array
 from function import *
 import time
+from signals import *
 
 np.set_printoptions(threshold=np.inf)
 
